@@ -10,49 +10,60 @@
       crossorigin="anonymous"
     />
     <title>WireframeW2</title>
-    
+
     <link rel="stylesheet" href="src/styles.css" />
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
-      <div class="card" style="width: 50rem;">
+      <div class="card" style="width: 50rem">
         <div class="card-body">
           <form id="city-form">
-            <input type="text" placeholder="Enter a City" class="form-Control" 
-            id="city-Input"/>
             <input
-            type="submit"
-            class="btn btn-outline-secondary"
-            value="Search" />
-            <button type="button" class="btn btn-success shadow-sm" id="current-location">
+              type="text"
+              placeholder="Enter a City"
+              class="form-Control"
+              id="city-Input"
+            />
+            <input
+              type="submit"
+              class="btn btn-outline-secondary"
+              value="Search"
+            />
+            <button
+              type="button"
+              class="btn btn-success shadow-sm"
+              id="current-location"
+            >
               Current
             </button>
           </form>
-                  <h5 class="card-title" id="new-City">
+          <h5 class="card-title" id="new-City">
             <br />
             <div class="weather-title">Weather</div>
           </h5>
           <h4>
             <div class="saturday" id="date"></div>
           </h4>
-          <h6 class="card-subtitle mb-2 text-body-secondary" id="description">
-            
-          </h6>
+          <h6
+            class="card-subtitle mb-2 text-body-secondary"
+            id="description"
+          ></h6>
           <br />
           <div class="float-left">
             <span classs="temperature" id="temperature"></span>
             <span class="units">°C</span>
-             <p class="card-info">
+            <p class="card-info">
               Humidity:<span id="humidity"></span>% <br />
-              Wind: <span id="wind"></span>mph 
-          </p>
-                    </div>
+              Wind: <span id="wind"></span>mph
+            </p>
           </div>
         </div>
       </div>
     </div>
-
+    <a href="https://github.com/Nardelys15c/Project-Weather.git"
+      >open source code </a
+    >by Nardelys Caraballo
     <script src="src/script.js"></script>
   </body>
 </html>
