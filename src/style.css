@@ -18,8 +18,8 @@ h6 {
 }
 medium {
   margin: auto;
-  padding: 20%;
-  margin-inline: revert;
+  padding: 7%;
+  text-align: 10px;
 }
 .card-body {
   padding: 35px;
