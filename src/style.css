@@ -1,5 +1,5 @@
 body {
-  border-radius: 30px;
+  border-radius: 40px;
 }
 
 h4 {
@@ -15,6 +15,11 @@ h6 {
   padding: 10px 0px 0px;
   margin: auto;
   font-size: 25px;
+}
+medium {
+  margin: auto;
+  padding: 20%;
+  margin-inline: revert;
 }
 .card-body {
   padding: 35px;
